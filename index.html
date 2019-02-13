@@ -5,8 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stan Lee Tribute Page</title>
+    <style>
+        .active{
+    		float: left;
+    		color: #f2f2f2;
+    		text-align: center;
+    		padding: 12px 16px;
+    		text-decoration: none;
+    		font-size: 16px;
+    	}
+    	#nav{
+    		background-color: #999;
+    		overflow: hidden;
+    	}
+    	.abc{
+    		float: right;
+    		color: #f2f2f2;
+    		text-align: center;
+    		padding: 12px 16px;
+    		text-decoration: none;
+    		font-size: 16px;
+    	}
+    	#nav a:hover{
+    		background-color: #ddd;
+    		color: black;
+    	}
+
+        body{
+            font-family:'Lobster',Times New Roman;
+            background-color: aliceblue;
+            color: black;
+        }
+        .h1{
+            font-size: 100px;
+            margin-bottom: 25px;
+        }
+        .t-center{
+            text-align: center;
+        }
+        #b-t-top{
+            height: 50px;
+            width: 50px;
+            float: right;
+            opacity: 0.7;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            
+        }
+        #b-t-top:hover{
+            opacity: 1;
+            
+        }
+        .t-left{
+            padding: 50px 100px 50px 100px;
+        }
+        .t-center, .t-left, #intro, #life, #career, #achievements{
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    changes made
+    <div id="nav">
+        <a class="active" href="#nav">Home</a>   
+    	<a href="#achievements" class="abc">Achievements</a> 	
+    	<a href="#career" class="abc">Career</a>
+    	<a href="#life" class="abc">Life</a>
+    </div>
+
+    <div class="t-center">
+    <h1>Stan Lee</h1>
+    
+    <h5>Comic books to me are fairy tales for grown-ups. – Stan Lee</h5>
+    
+    <img src="static/index.jpg">
+    </div>
+    <div class="t-left">
+        <div id="intro">
+            <p><a href="https://en.wikipedia.org/wiki/Stan_Lee" target="_blank">Stan Lee</a> (born Stanley Martin Lieber /ˈliːbər/; December 28, 1922 –    November 12, 2018) was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business to become Marvel Comics' primary creative leader for two decades, leading its expansion from a small division of a publishing house to a multimedia corporation that dominated the comics industry.</p>
+            <p>In collaboration with others at Marvel—particularly co-writer/artists Jack Kirby and Steve Ditko—he co-created numerous popular fictional characters, including superheroes Spider-Man, the X-Men, Iron Man, Thor, the Hulk, the Fantastic Four, Black Panther, Daredevil, Doctor Strange, Scarlet Witch and Ant-Man. In doing so, he pioneered a more naturalistic approach to writing superhero comics in the 1960s, and in the 1970s he challenged the restrictions of the Comics Code Authority, indirectly leading to changes in its policies. In the 1980s he pursued development of Marvel properties in other media, with mixed results. Following his retirement from Marvel in the 1990s, he remained a public figurehead for the company, and frequently made cameo appearances in films and television shows based on Marvel characters, on which he received an executive producer credit. Meanwhile, he continued independent creative ventures into his 90s, until his death in 2018. </p>
+        </div>
+        <div id="life">
+            <p>Lee was raised in a Jewish family. In a 2002 survey of whether he believed in God, he stated, "Well, let me put it this way... [Pauses.] No, I'm not going to try to be clever. I really don't know. I just don't know."
+            From 1945 to 1947, Lee lived in the rented top floor of a brownstone in the East 90s in Manhattan. He married Joan Clayton Boocock, originally from Newcastle, England, on December 5, 1947, and in 1949, the couple bought a house in Woodmere, New York, on Long Island, living there through 1952. Their daughter Joan Celia "J. C." Lee was born in 1950. Another daughter, Jan Lee, died three days after delivery in 1953. </p>
+        </div>
+        <div id="career">
+            <p>Lee was raised in a Jewish family. In a 2002 survey of whether he believed in God, he stated, "Well, let me put it this way... [Pauses.] No, I'm not going to try to be clever. I really don't know. I just don't know."
+            From 1945 to 1947, Lee lived in the rented top floor of a brownstone in the East 90s in Manhattan. He married Joan Clayton Boocock, originally from Newcastle, England, on December 5, 1947, and in 1949, the couple bought a house in Woodmere, New York, on Long Island, living there through 1952. Their daughter Joan Celia "J. C." Lee was born in 1950. Another daughter, Jan Lee, died three days after delivery in 1953. </p>
+        </div>
+        <div id="achievements">
+            <ul>
+                <li>Will Eisner Award Hall of Fame<br>1994</li>
+                <li>Jack Kirby Hall of Fame<br>1995</li>
+                 <li>The Life Career Award<br>2002</li>
+                <li>Bill Finger Award<br>2008</li>
+                <li>PGA Vanguard Award<br>2012</li>
+                <li>Independent Publisher Book Award for Independent Voice<br>2017</li>
+                <li>Harvey Award - The Hero Initiative Lifetime Achievement Award<br>2017</li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="b-t-top"><a href="#nav">Top</a></div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
